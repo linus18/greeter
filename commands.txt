@@ -1,0 +1,3 @@
+eval $(minikube docker-env)
+
+kubectl run greeter-node --image=mj.io/greet:latest --image-pull-policy=Never
